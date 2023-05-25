@@ -5,7 +5,8 @@
     font-family: 'Poppins', sans-serif;
     
 }
-/* GRANDEZZE PER GLI H */
+
+/* GRANDEZZE PER GLI HEADING TAGS */
 h1{
      
         display: block;
@@ -15,8 +16,58 @@ h1{
         margin-left: 0;
         margin-right: 0;
         font-weight: bold;
+        
     
 }
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h4 { 
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h5 { 
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h6 { 
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+/* FINE GRANDEZZA HEADING TAGS*/
 hr{
     color: 10px solid black;
 }
@@ -38,7 +89,7 @@ body{
 
 header{
    background-color: rgba(0,110,136,255);
-   border-radius: 1%;
+   
    background: rgb(0,157,200);
    background: linear-gradient(180deg, rgba(0,157,200,1) 0%, rgba(1,68,87,0.8772102591036415) 90%);
 
@@ -81,10 +132,17 @@ main{
     -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61); 
     box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61);
 }
+main h1 {
+    text-align: center;
+}
+main ul, li, ol {
+    padding-left: 30px;
+    line-height: 1.2em;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 .article1 {
     padding: 10px;
-
+    color: #AAAAAA;
 }
 
 /* TABELLA */
@@ -125,8 +183,77 @@ table.style-table {
   table.style-table thead th:first-child {
     border-left: none;
   }
-/* FORM */
+
+  /* VIDEO */
+iframe{
+    border-radius: 22px;
+}
+.video-sec > p {
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+/* FORM  newsletter*/
+.newsletter > p {
+    text-align: center; 
+    
+}
+.newsletter{
+    padding: 10px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #AAAAAA;
+    text-align: left;
+}
+.newsletter input{
+    border-bottom-style: dotted;
+    
+}
+.newsletter button {
+    background-color: #3367CB;
+    color: white ;
+    
+}
 
 /* ELEMENTI NELL' ASIDE */
+.data{
+    text-align: right;
+}
+
+
+.aside-form, .aside-form1, .aside-form2{
+    background-color: #e2e2de ;
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61);
+    margin-bottom: 10px;
+    f
+
+}
+.fas > fa-calendar-alt > i{
+    text-align: right: ;
+
+}
+aside{
+    font-family: 'Poppins', sans-serif;
+}
 
 /* FOOTER */
+footer a {
+    color: #f703f8;
+}
+
+footer{
+    background-color: ;
+    -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61); 
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61);
+    background-color: rgba(0,110,136,255);
+    background: rgb(0,157,200);
+    background: linear-gradient(180deg, rgba(0,157,200,1) 0%, rgba(1,68,87,0.8772102591036415) 90%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 0.83em;
+    
+ }
+
