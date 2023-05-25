@@ -3,6 +3,7 @@
     margin: 10px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    padding: auto 10px;
     
 }
 
@@ -76,6 +77,10 @@ hr{
     height: auto;
     margin-right: auto;
     margin-left: auto;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61); 
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61);
+    padding: auto 10px;
 }
 strong{
     color: brown;
@@ -127,14 +132,7 @@ color: #FFFFFF;
 }
 
 /* MAIN */
-main{
-    background-color: #FFFFFF;
-    -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61); 
-    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61);
-}
-main h1 {
-    text-align: center;
-}
+
 main ul, li, ol {
     padding-left: 30px;
     line-height: 1.2em;
@@ -185,6 +183,7 @@ table.style-table {
   }
 
   /* VIDEO */
+
 iframe{
     border-radius: 22px;
 }
@@ -225,14 +224,10 @@ iframe{
 .aside-form, .aside-form1, .aside-form2{
     background-color: #e2e2de ;
     box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61);
-    margin-bottom: 10px;
-    f
+    margin-bottom: 10px; 
 
 }
-.fas > fa-calendar-alt > i{
-    text-align: right: ;
 
-}
 aside{
     font-family: 'Poppins', sans-serif;
 }
@@ -243,7 +238,7 @@ footer a {
 }
 
 footer{
-    background-color: ;
+    
     -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61); 
     box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61);
     background-color: rgba(0,110,136,255);
