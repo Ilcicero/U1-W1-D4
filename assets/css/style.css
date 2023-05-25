@@ -40,14 +40,7 @@ h3 {
     margin-right: 0;
     font-weight: bold;
 }
-h4 { 
-    display: block;
-    margin-top: 1.33em;
-    margin-bottom: 1.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
+
 h5 { 
     display: block;
     font-size: .83em;
@@ -57,16 +50,6 @@ h5 {
     margin-right: 0;
     font-weight: bold;
 }
-h6 { 
-    display: block;
-    font-size: .67em;
-    margin-top: 2.33em;
-    margin-bottom: 2.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-
 
 /* FINE GRANDEZZA HEADING TAGS*/
 hr{
@@ -100,9 +83,7 @@ header{
 
 }
 .logo-box{
-    margin-bottom: 15px;
-    font-family: 'Poppins', sans-serif;
-    color: #FFFFFF;
+    margin-bottom: 15px;  
    
 }
 .logo-box+ p{
