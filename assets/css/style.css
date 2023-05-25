@@ -186,13 +186,14 @@ table.style-table {
 
 iframe{
     border-radius: 22px;
+    
 }
 .video-sec > p {
     margin: 15px;
     font-family: 'Poppins', sans-serif;
 }
 /* FORM  newsletter*/
-.newsletter > p {
+.newsletter > p,h2 {
     text-align: center; 
     
 }
