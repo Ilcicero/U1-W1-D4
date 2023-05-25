@@ -2,6 +2,7 @@
 *{
     margin: 10px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     
 }
 /* GRANDEZZE PER GLI H */
@@ -30,7 +31,7 @@ strong{
 }
 
 body{
-    background-image: url() 
+ background-image: url(../img/sfondo.png);
 
 }
 /* HEADER */
@@ -44,27 +45,42 @@ header{
 }
 .logo-box{
     margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
    
 }
 .logo-box+ p{
 text-align: center;
+font-family: 'Poppins', sans-serif;
+color: #FFFFFF;
 }
 
 #logo{
     width: 300px;
+    padding-left: 30%;
+    margin-top: 15px;
     
 }
 .navbar{
     margin-top: 15px;
     text-align: center;
+
     
 }
 .navbar ul {
-   list-style-type:none
+   list-style-type:none;
+   font-family: 'Poppins', sans-serif;
+color: #FFFFFF;
+   
+
 }
 
 /* MAIN */
-
+main{
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61); 
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61);
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 .article1 {
     padding: 10px;
