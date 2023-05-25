@@ -223,7 +223,6 @@ footer{
     
     -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61); 
     box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.61);
-    background-color: rgba(0,110,136,255);
     background: rgb(0,157,200);
     background: linear-gradient(180deg, rgba(0,157,200,1) 0%, rgba(1,68,87,0.8772102591036415) 90%);
     text-align: center;
