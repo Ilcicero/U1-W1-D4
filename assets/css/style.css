@@ -1,16 +1,114 @@
 /* IMPOSTAZIONI GENERALI */
 *{
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box;
+    
+}
+/* GRANDEZZE PER GLI H */
+h1{
+     
+        display: block;
+        font-size: 2em;
+        margin-top: 0.67em;
+        margin-bottom: 0.67em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+    
+}
+hr{
+    color: 10px solid black;
+}
+#container{
+    width: 400px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+strong{
+    color: brown;
+}
+
+body{
+    background-image: url() 
+
 }
 /* HEADER */
+
+header{
+   background-color: rgba(0,110,136,255);
+   border-radius: 1%;
+   background: rgb(0,157,200);
+   background: linear-gradient(180deg, rgba(0,157,200,1) 0%, rgba(1,68,87,0.8772102591036415) 90%);
+
+}
+.logo-box{
+    margin-bottom: 15px;
+   
+}
+.logo-box+ p{
+text-align: center;
+}
+
+#logo{
+    width: 300px;
+    
+}
+.navbar{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.navbar ul {
+   list-style-type:none
+}
 
 /* MAIN */
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+.article1 {
+    padding: 10px;
 
-/* TABELLE */
+}
 
+/* TABELLA */
+table{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+table.style-table {
+    border: 1px solid #2BAAFD;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.style-table td, table.style-table th {
+    border: 0px solid #AAAAAA;
+    padding: 9px 3px;
+  }
+  table.style-table tbody td {
+    font-size: 13px;
+  }
+  table.style-table tr:nth-child(even) {
+    background: #D0D7D7;
+  }
+  table.style-table thead {
+    background: #3367CB;
+    background: -moz-linear-gradient(top, #668dd8 0%, #4776d0 66%, #3367CB 100%);
+    background: -webkit-linear-gradient(top, #668dd8 0%, #4776d0 66%, #3367CB 100%);
+    background: linear-gradient(to bottom, #668dd8 0%, #4776d0 66%, #3367CB 100%);
+    border-bottom: 1px solid #444444;
+  }
+  table.style-table thead th {
+    font-weight: normal;
+    color: #FFFFFF;
+    border-left: 0px solid #D0E4F5;
+  }
+  table.style-table thead th:first-child {
+    border-left: none;
+  }
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
